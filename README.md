@@ -25,10 +25,10 @@ Here's a simple flowchart outlining the functionality of the task manager applic
 
 
 
-And here's a prototype interface design created using Figma:
+And here's a prototype interface design created using Draw.io:
 
 
-<img width="600" alt="Figma File" src="#">
+<img width="600" alt="draw.io file" src="#">
 
 
 
