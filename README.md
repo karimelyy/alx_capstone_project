@@ -21,7 +21,7 @@ The application is built using various technologies learned during the ALX Intro
 # Demo: :fire:
 Here's a simple flowchart outlining the functionality of the task manager application:
 
-<img width="600" alt="app FLOWCHART" src="#">
+<img alt="app FLOWCHART" src="assets/BOOK IT flowchart.png">
 
 
 
