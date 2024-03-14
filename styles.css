@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(assets/banner1.jpg);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #b6d4d0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.699);
+    
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 70px;
+}
+
+.task-item span {
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+}
+
+.task-item button {
+    float: right;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 2px;
+}
+
+.task-item button:hover {
+    background-color: #bd2130;
+}
+
+.search-filter{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-filter input[type="text"]{
+    flex: 1;
+    margin-right: 10px;
+}
+
+.search-filter button{
+    width: 80px;
+    padding: 5px 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-filter button:hover{
+    background-color: #218838;
+}
+
+.search-filter button:active{
+    background-color: #186428;
+}
+
+.notification-icon{
+    margin-left: 565px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.notification-icon:hover{
+    background: rgba(255, 0, 0, 0.459);
+    border-radius: 50px;
+}
+
+.notification-icon .badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
